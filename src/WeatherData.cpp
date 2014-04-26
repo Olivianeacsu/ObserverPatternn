@@ -20,7 +20,7 @@ WeatherData::~WeatherData() {
 	// TODO Cleanup properly the vector! who is responsible of deleting the objects in this vector?
 }
 
-void WeatherData::registerOberver(Observer* obsvr) {
+void WeatherData::registerObserver(Observer* obsvr) {
 	observers.push_back(obsvr);
 }
 

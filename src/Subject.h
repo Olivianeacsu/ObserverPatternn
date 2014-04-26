@@ -15,11 +15,9 @@ public:
 	Subject();
 	virtual ~Subject();
 
-	virtual void registerObserver(Observer* obsvr) {
-
-	};
-	virtual void removeObserver(Observer* obsvr) {};
-	virtual void notifyObservers() {};
+	virtual void registerObserver(Observer* obsvr)=0;
+	virtual void removeObserver(Observer* obsvr)=0;
+	virtual void notifyObservers()=0;
 };
 
 } /* namespace std */

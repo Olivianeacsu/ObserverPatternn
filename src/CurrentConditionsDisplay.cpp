@@ -20,7 +20,7 @@ CurrentConditionsDisplay::CurrentConditionsDisplay(Subject* sbj) {
 }
 
 CurrentConditionsDisplay::~CurrentConditionsDisplay() {
-	// TODO Auto-generated destructor stub
+	// do not delete the Subject pointer. this class is not the owner, it is not the one who created it
 }
 
 void CurrentConditionsDisplay::update(double temperature, double humidity, double pressure){

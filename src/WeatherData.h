@@ -21,7 +21,7 @@ public:
 	WeatherData();
 	virtual ~WeatherData();
 
-	virtual void registerOberver(Observer* obsvr);
+	virtual void registerObserver(Observer* obsvr);
 
 	virtual void removeObserver(Observer* obsvr);
 	virtual void notifyObservers();
